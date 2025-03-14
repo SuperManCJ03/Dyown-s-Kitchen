@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyown's Kitchen</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo + Title -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/logo.png" alt="Logo" height="100" class="me-2">
+                    <h1 class="site-title">Dyown's Kitchen</h1>
+                </a>
+    
+                <!-- Navbar Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Navbar Items (Fixed Alignment) -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Menu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="menu_cakes.html">Cakes</a></li>
+                                <li><a class="dropdown-item" href="menu_cookies&crinkles.html">Cookies & Crinkles</a></li>
+                                <li><a class="dropdown-item" href="menu_brownies&muffins.html">Brownies & Muffins</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="services_delivery.html">Delivery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonial</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+ 
+<!-- Container for both sections -->
+<div class="two-sections-container">
+    <!-- Our Location Section -->
+    <section class="our-location-section">
+        <h2><b>Our Location</b></h2>
+        <p>We are located at General Trias, Cavite. Visit us for more details.</p>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.398183011147!2d120.87716707481421!3d14.346353183251429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962b005682e239%3A0x95a46ee6b23046bd!2sBubbles%20Crib!5e0!3m2!1sen!2sph!4v1741959936428!5m2!1sen!2sph" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- QR Payment Section -->
+    <section class="qr-code-stuff">
+        <div class="qr-code-container">
+            <h2><b>Payment</b></h2>
+            <p>Kindly scan the QR Codes below for Payment</p>
+            <img src="ASSETS/QR.png" alt="QR Code for Payment">
+        </div>
+    </section>
+</div>
+
+
+
+   <!-- Delivery Information Section -->
+   <section id="delivery-section" class="container content-section py-5">
+    <!-- Table for Delivery Information -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Delivery Option</th>
+                <th scope="col">Details</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard Delivery</td>
+                <td>Delivery within 3-5 business days</td>
+                <td>₱50.00</td>
+            </tr>
+            <tr>
+                <td>Express Delivery</td>
+                <td>Delivery within 1-2 business days</td>
+                <td>₱150.00</td>
+            </tr>
+            <tr>
+                <td>Same-Day Delivery</td>
+                <td>Delivery on the same day</td>
+                <td>₱200.00</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+    <footer class="footer text-white py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                
+                <!-- Logo and Copyright -->
+                <div class="col-md-3 d-flex flex-column align-items-center align-items-md-start">
+                    <img src="ASSETS/logo.png" alt="Logo" class="footer-logo mb-2">
+                    <p class="small m-0">© Dyown's Kitchen</p>
+                    <p class="small m-0">Dyown's Est. 2020</p>
+                </div>
+    
+                <!-- Information Links -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold">INFORMATION</h5>
+                    <div class="d-flex flex-column align-items-center align-items-md-start gap-2">
+                        <p><a href="about.html">About Us</a></p>
+                        <p><a href="services_pickup.html">Pickup</a></p>
+                        <p><a href="services_delivery.html">Delivery</a></p>
+                    </div>
+                </div>
+    
+                <!-- Contact Section -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold">GET IN TOUCH</h5>
+                    <div class="d-flex flex-column align-items-center align-items-md-start gap-2">
+                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="mailto:corpuz.joanrae@gmail.com">corpuz.joanrae@gmail.com</a></p>
+                        <p><a href="tel:09778299310">09778299310</a></p>
+                    </div>
+                </div>
+    
+                <!-- Social Media Links (Aligned properly) -->
+                <div class="col-md-3 text-center text-md-start">
+                    <h5 class="fw-bold">FOLLOW US</h5>
+                    <div class="d-flex flex-column align-items-center align-items-md-start gap-2">
+                        <p><a href="https://www.facebook.com/@dyowns.est2020" target="_blank" class="text-white"><i class="bi bi-facebook"></i> Facebook</a></p>
+                        <p><a href="https://www.instagram.com/dyowns.est2020/" target="_blank" class="text-white"><i class="bi bi-instagram"></i> Instagram</a></p>
+                        <p><a href="mailto:corpuz.joanrae@gmail.com" class="text-white"><i class="bi bi-envelope"></i> Email</a></p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+        
+                
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
