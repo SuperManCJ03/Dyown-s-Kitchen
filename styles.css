@@ -37,7 +37,7 @@
 
 /* Ensure logo stays at exactly 100px height */
 .navbar-brand img {
-    height: 100px !important;
+    height: 120px !important;
     width: auto;
     display: block; /* Remove inline spacing */
     object-fit: contain; /* Ensures no stretching */
@@ -67,7 +67,7 @@
 
 /* Adjusted Logo */
 .logo-title img {
-    height: 100px !important; /* Reduced from 80px */
+    height: 120px !important; /* Reduced from 80px */
     width: auto;
     transition: transform 0.2s ease-in-out;
 }
