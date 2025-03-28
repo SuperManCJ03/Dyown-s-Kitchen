@@ -10,7 +10,7 @@ document.querySelector(".contact-form").addEventListener("submit", async functio
         params.append(pair[0], pair[1]);
     }
 
-    const googleScriptURL = "https://script.google.com/macros/s/AKfycbz8ZLV4Y_PQl-AcSbQ-9J4qcp4RzOZLu52hea0mkwUGXxedcC5r3JBVVNfsebF0HRQcVg/exec";
+    const googleScriptURL = "https://docs-link-here.com";
 
     try {
         const response = await fetch(googleScriptURL, {
