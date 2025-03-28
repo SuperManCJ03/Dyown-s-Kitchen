@@ -10,7 +10,7 @@ document.querySelector(".cake-order-form").addEventListener("submit", async func
         params.append(pair[0], pair[1]);
     }
 
-    const googleScriptURL = "https://script.google.com/macros/s/AKfycbxgHbAHmvryR8xpZFN3DDXCn7AJbySsCx3bHQVCzIDhHBfeC0QckpWRjM4c8BCo0n5xZw/exec";
+    const googleScriptURL =  "https://docs-link-here.com";;
 
     try {
         const response = await fetch(googleScriptURL, {
